@@ -1,0 +1,94 @@
+body {
+    background-color: #111111;
+}
+.container{
+    display: grid;
+    grid-template-columns: 550px auto;
+    
+    color: white;
+    height: 90vh;
+    margin-top: 38px;
+    margin-left: 41px;
+    margin-right: 42px;
+    margin-bottom: 37px;
+}
+.container > div{
+    border : 2px solid #808080;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 5px;
+}
+.box1{
+    grid-column: 1/3;
+    font-size: 50px;
+}
+.box2{
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 29px;
+    align-items: center;
+}
+.box2 img{
+    border-radius: 100000px;
+}
+
+.box3{
+    grid-row: 2/5;
+    grid-column: 2/3;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+}
+.box3 table{
+    border : 2px solid #808080;
+    font-size: 25px;
+    color: #808080;
+    border-radius: 20px;
+    height: 70vh;
+}
+.box3 div{
+    font-size: 48px;
+}
+
+td,th{
+   background-color: black;
+   border-radius: 25px;
+}
+th,td{
+    text-align: center;
+}
+td:nth-child(2){
+    text-align: center;
+}
+.box4 ul{
+    font-size: 24px;
+    padding-left: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    row-gap: 10px;
+    
+}
+
+.box5{
+    font-size: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    row-gap: 10px;
+}
+.box5 div{
+    display: grid;
+    grid-template-columns: 25px auto;
+}
+.box5 a{
+    color : #808080;
+    text-decoration: none;
+}
+input{
+    height: 22px;
+    width: 22px;
+    accent-color:green;
+}
+
+
